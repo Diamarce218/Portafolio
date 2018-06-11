@@ -1,3 +1,7 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .home-wrapper {
     background: url(../images/background.jpg) no-repeat center top ;
     background-size: cover;
@@ -37,9 +41,44 @@ header nav a.active {
     padding: 200px 0px 150px;
 }
 
+#home h1 {
+    font-size: 68px;
+    font-weight: normal;
+}
+
+#home p {
+    font-size: 24px;
+}
+
+#home .social {
+
+    margin top:80px;
+}
+
+#home   .social a {
+    color:white;
+    display:inline-block;
+    border-radius: 50px;
+    background-color: black;
+    font-size:24px;
+    font-weight: bold;
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    line-height: 50px;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    transition: all .4s;
+}
+
+#home .social a:hover {
+    background-color: green;
+
+}
 .container {
 
     width: 992px;
     margin-left: auto;
     margin-right: auto;
 }
+
