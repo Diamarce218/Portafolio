@@ -84,6 +84,13 @@ section h2 {
     text-align: center;
     margin-bottom: 80px;    
 }
+
+#home .divider {
+width: 80px;
+border-top: 5px solid yellow;
+margin: 0 auto;
+
+}
 /* ------------------------------------------------------------------------------------------------------*/
 
 /* estos formatos aplican para todos los "section" de la pagina*/
@@ -125,5 +132,5 @@ section {
 }
 
 #portafolio .box p {
-    font-color: #666;
+    color: #666;
 }
