@@ -3,14 +3,13 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
-/*==================HOME WRAPPER INCLUYE: (Header&container, nav), home, social======================*/
 
 .home-wrapper {
     background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('landingpagepic.jpg'),url(../images/background.jpg) no-repeat center top ;
     background-size: cover;
     color:white;   
 }
-/*..................................*/
+
 header {
     padding: 10px 0px;
     position: fixed;
@@ -37,13 +36,13 @@ header nav a {
 }
 
 header nav a.active {
-    background: yellow;
+    background: #9D0349;
     border-radius: 3px;
 }
-/*..................................*/
+
 #home {
     text-align: center;
-    padding: 200px 0px 150px;
+    padding: 100px 0px 100px;
 }
 
 #home h1 {
@@ -76,24 +75,22 @@ header nav a.active {
 }
 
 #home .social a:hover {
-    background-color: green;
+    background-color: #9D0349;
 }
 
 section h2 {
     font-size: 32px;
     text-align: center;
-    margin-bottom: 80px;    
+    margin-bottom: 50px;    
 }
 
 #home .divider {
 width: 80px;
-border-top: 5px solid yellow;
+border-top: 5px solid #9D0349;
 margin: 0 auto;
 
 }
-/* ------------------------------------------------------------------------------------------------------*/
 
-/* estos formatos aplican para todos los "section" de la pagina*/
 .container {
     width: 992px;
     margin-left: auto;
@@ -104,16 +101,16 @@ section {
     padding:80px 0px;
 }
 
-/* =================================SECCION DE SERVICIOS================================================*/
-
-#servicios .box {
+#conocimientos .box {
     display: inline-block;
     text-align: center;
     width: 33%;
-    padding: 10px;
+    padding: 5px;
 }
 
-/* =================================SECCION DE PORTAFOLIO================================================*/
+#conocimientos h3 {
+    line-height: 8px;
+}
 
 #portafolio {
     background-color: whitesmoke;
@@ -133,4 +130,48 @@ section {
 
 #portafolio .box p {
     color: #666;
+}
+
+#contacto {
+    background-color:  #1a001a;
+    background-image: url('../images/map-image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+#contacto h2 {
+    color:white;
+}
+
+#contacto input {
+
+padding: 20px;
+width: 400px;
+border:  1px solid #ccc;
+border-radius: 3px;
+
+}
+
+#contacto textarea {
+
+    margin: 20px 0;
+    padding:20px;
+    width: 400px;
+    border:  1px solid #ccc;
+    border-radius: 3px;
+    }
+
+#contacto button {
+    background-color: #9D0349;
+    padding: 20px 40px;
+    border-color: #9D0349;
+    border-radius: 13px;
+    line-height: 1;
+    font-weight: bold;
+    
+}
+
+#contacto button a{
+    text-decoration: none;
+    color: white;
 }
